@@ -1,9 +1,39 @@
 /* General styles */
 body {
   margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #1d1d1d;
   color: #fff;
   font-family: 'Roboto', sans-serif;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  max-width: 600px;
+}
+
+.container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.container h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.container h4 {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.container p {
+  font-size: 14px;
+  margin-bottom: 10px;
 }
 
 header {
