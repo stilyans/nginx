@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>IT Services - Your Company Name</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+</head>
+<body>
+        <header>
+                <h1>Your Company Name</h1>
+                <nav>
+                        <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                        </ul>
+                </nav>
+        </header>
+
+        <main>
+                <h2>Our IT Services</h2>
+                <p>We offer a variety of IT services to help you achieve your business goals. Our services include:</p>
+
+                <ul>
+                        <li>Network design and implementation</li>
+                        <li>Server setup and configuration</li>
+                        <li>Software installation and configuration</li>
+                        <li>Remote support and maintenance</li>
+                        <li>Data backup and recovery</li>
+                        <li>Security and antivirus solutions</li>
+                </ul>
+
+                <p>Whether you need a one-time project or ongoing support, we have the expertise to help you succeed.</p>
+
+                <h2>Contact Us</h2>
+                <p>Ready to get started? Contact us today to schedule a consultation and learn how we can help your business succeed.</p>
+
+                <form>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+
+                        <input type="submit" value="Send">
+                </form>
+        </main>
+
+        <footer>
+                <p>&copy; Your Company Name</p>
+        </footer>
+
+        <script>
+                // Dynamic copyright year
+                document.querySelector('footer p').textContent = '\u00A9 Your Company Name ' + new Date().getFullYear();
+        </script>
+
+</body>
+</html>
